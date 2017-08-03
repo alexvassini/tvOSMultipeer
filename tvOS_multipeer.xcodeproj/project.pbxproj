@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		890C584B1F339246005FE121 /* MultipeerServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890C584A1F339246005FE121 /* MultipeerServiceManager.swift */; };
+		890C584D1F339FD1005FE121 /* collectionView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 890C584C1F339FD1005FE121 /* collectionView.storyboard */; };
+		890C584F1F33A047005FE121 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890C584E1F33A046005FE121 /* CardCollectionViewCell.swift */; };
+		890C58511F33A04E005FE121 /* MessageField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890C58501F33A04E005FE121 /* MessageField.swift */; };
+		89E6F3CA1F3360C300D608D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E6F3C91F3360C300D608D7 /* AppDelegate.swift */; };
+		89E6F3CC1F3360C300D608D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E6F3CB1F3360C300D608D7 /* ViewController.swift */; };
+		89E6F3CF1F3360C300D608D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E6F3CD1F3360C300D608D7 /* Main.storyboard */; };
+		89E6F3D11F3360C300D608D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89E6F3D01F3360C300D608D7 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		890C584A1F339246005FE121 /* MultipeerServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipeerServiceManager.swift; sourceTree = "<group>"; };
+		890C584C1F339FD1005FE121 /* collectionView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = collectionView.storyboard; sourceTree = "<group>"; };
+		890C584E1F33A046005FE121 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		890C58501F33A04E005FE121 /* MessageField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageField.swift; sourceTree = "<group>"; };
+		89E6F3C61F3360C300D608D7 /* tvOS_multipeer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvOS_multipeer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E6F3C91F3360C300D608D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89E6F3CB1F3360C300D608D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89E6F3CE1F3360C300D608D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89E6F3D01F3360C300D608D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89E6F3D21F3360C300D608D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89E6F3C31F3360C300D608D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89E6F3BD1F3360C200D608D7 = {
+			isa = PBXGroup;
+			children = (
+				89E6F3C81F3360C300D608D7 /* tvOS_multipeer */,
+				89E6F3C71F3360C300D608D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89E6F3C71F3360C300D608D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89E6F3C61F3360C300D608D7 /* tvOS_multipeer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89E6F3C81F3360C300D608D7 /* tvOS_multipeer */ = {
+			isa = PBXGroup;
+			children = (
+				89E6F3C91F3360C300D608D7 /* AppDelegate.swift */,
+				89E6F3CB1F3360C300D608D7 /* ViewController.swift */,
+				89E6F3CD1F3360C300D608D7 /* Main.storyboard */,
+				890C584C1F339FD1005FE121 /* collectionView.storyboard */,
+				89E6F3D01F3360C300D608D7 /* Assets.xcassets */,
+				89E6F3D21F3360C300D608D7 /* Info.plist */,
+				890C584A1F339246005FE121 /* MultipeerServiceManager.swift */,
+				890C58501F33A04E005FE121 /* MessageField.swift */,
+				890C584E1F33A046005FE121 /* CardCollectionViewCell.swift */,
+			);
+			path = tvOS_multipeer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89E6F3C51F3360C300D608D7 /* tvOS_multipeer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89E6F3D51F3360C300D608D7 /* Build configuration list for PBXNativeTarget "tvOS_multipeer" */;
+			buildPhases = (
+				89E6F3C21F3360C300D608D7 /* Sources */,
+				89E6F3C31F3360C300D608D7 /* Frameworks */,
+				89E6F3C41F3360C300D608D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tvOS_multipeer;
+			productName = tvOS_multipeer;
+			productReference = 89E6F3C61F3360C300D608D7 /* tvOS_multipeer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89E6F3BE1F3360C200D608D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Vassinievski;
+				TargetAttributes = {
+					89E6F3C51F3360C300D608D7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = C2WX94X8CG;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 89E6F3C11F3360C200D608D7 /* Build configuration list for PBXProject "tvOS_multipeer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89E6F3BD1F3360C200D608D7;
+			productRefGroup = 89E6F3C71F3360C300D608D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89E6F3C51F3360C300D608D7 /* tvOS_multipeer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89E6F3C41F3360C300D608D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89E6F3D11F3360C300D608D7 /* Assets.xcassets in Resources */,
+				89E6F3CF1F3360C300D608D7 /* Main.storyboard in Resources */,
+				890C584D1F339FD1005FE121 /* collectionView.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89E6F3C21F3360C300D608D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890C584F1F33A047005FE121 /* CardCollectionViewCell.swift in Sources */,
+				89E6F3CC1F3360C300D608D7 /* ViewController.swift in Sources */,
+				890C58511F33A04E005FE121 /* MessageField.swift in Sources */,
+				89E6F3CA1F3360C300D608D7 /* AppDelegate.swift in Sources */,
+				890C584B1F339246005FE121 /* MultipeerServiceManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		89E6F3CD1F3360C300D608D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89E6F3CE1F3360C300D608D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89E6F3D31F3360C300D608D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		89E6F3D41F3360C300D608D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89E6F3D61F3360C300D608D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = C2WX94X8CG;
+				INFOPLIST_FILE = tvOS_multipeer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vassini.tvOS-multipeer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		89E6F3D71F3360C300D608D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = C2WX94X8CG;
+				INFOPLIST_FILE = tvOS_multipeer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vassini.tvOS-multipeer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89E6F3C11F3360C200D608D7 /* Build configuration list for PBXProject "tvOS_multipeer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E6F3D31F3360C300D608D7 /* Debug */,
+				89E6F3D41F3360C300D608D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89E6F3D51F3360C300D608D7 /* Build configuration list for PBXNativeTarget "tvOS_multipeer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E6F3D61F3360C300D608D7 /* Debug */,
+				89E6F3D71F3360C300D608D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89E6F3BE1F3360C200D608D7 /* Project object */;
+}

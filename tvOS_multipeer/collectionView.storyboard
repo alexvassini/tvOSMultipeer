@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="appleTV" orientation="landscape">
+        <adaptation id="light"/>
+    </device>
+    <dependencies>
+        <deployment identifier="tvOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="tvOS_multipeer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7KK-9J-pzo">
+                                <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                                <subviews>
+                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="vI0-5p-okr">
+                                        <rect key="frame" x="8" y="8" width="1904" height="1064"/>
+                                        <inset key="scrollIndicatorInsets" minX="40" minY="40" maxX="40" maxY="40"/>
+                                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="40" minimumInteritemSpacing="40" id="T0n-rl-9lS">
+                                            <size key="itemSize" width="400" height="330"/>
+                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                            <inset key="sectionInset" minX="40" minY="40" maxX="40" maxY="40"/>
+                                        </collectionViewFlowLayout>
+                                        <cells>
+                                            <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cardCollectionView" id="bPj-0S-4vY" customClass="CardCollectionViewCell" customModule="tvOS_multipeer" customModuleProvider="target">
+                                                <rect key="frame" x="40" y="40" width="400" height="330"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                                    <rect key="frame" x="0.0" y="0.0" width="400" height="330"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <subviews>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rh0-5T-1lu" userLabel="ShadowView">
+                                                            <rect key="frame" x="0.0" y="0.0" width="400" height="330"/>
+                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </view>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pvq-DW-iSf" userLabel="ContentView">
+                                                            <rect key="frame" x="4" y="4" width="392" height="322"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Offline" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oo3-F6-oES">
+                                                                    <rect key="frame" x="166" y="0.0" width="60" height="24"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="USERNAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QG0-Yb-jMk">
+                                                                    <rect key="frame" x="0.0" y="44" width="112" height="24"/>
+                                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" editable="NO" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uOF-bO-2FX" customClass="MessageField" customModule="tvOS_multipeer" customModuleProvider="target">
+                                                                    <rect key="frame" x="20" y="88" width="352" height="234"/>
+                                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                                </textView>
+                                                            </subviews>
+                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="trailing" secondItem="uOF-bO-2FX" secondAttribute="trailing" constant="20" id="8LU-ST-n4w"/>
+                                                                <constraint firstAttribute="bottom" secondItem="uOF-bO-2FX" secondAttribute="bottom" id="Dt6-gD-Q0h"/>
+                                                                <constraint firstItem="QG0-Yb-jMk" firstAttribute="leading" secondItem="Pvq-DW-iSf" secondAttribute="leading" id="YxS-3O-afc"/>
+                                                                <constraint firstItem="oo3-F6-oES" firstAttribute="centerX" secondItem="Pvq-DW-iSf" secondAttribute="centerX" id="cmK-cJ-oa7"/>
+                                                                <constraint firstItem="QG0-Yb-jMk" firstAttribute="top" secondItem="oo3-F6-oES" secondAttribute="bottom" constant="20" id="g1y-k3-8Iz"/>
+                                                                <constraint firstItem="uOF-bO-2FX" firstAttribute="leading" secondItem="Pvq-DW-iSf" secondAttribute="leading" constant="20" id="gYF-8w-Fjs"/>
+                                                                <constraint firstItem="oo3-F6-oES" firstAttribute="top" secondItem="Pvq-DW-iSf" secondAttribute="top" id="yg6-X4-nGb"/>
+                                                                <constraint firstItem="uOF-bO-2FX" firstAttribute="top" secondItem="QG0-Yb-jMk" secondAttribute="bottom" constant="20" id="zY2-zb-bnH"/>
+                                                            </constraints>
+                                                        </view>
+                                                    </subviews>
+                                                </view>
+                                                <constraints>
+                                                    <constraint firstItem="rh0-5T-1lu" firstAttribute="leading" secondItem="bPj-0S-4vY" secondAttribute="leading" id="1l6-KO-Yyp"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Pvq-DW-iSf" secondAttribute="trailing" constant="4" id="2Jm-Xp-4RA"/>
+                                                    <constraint firstAttribute="trailing" secondItem="rh0-5T-1lu" secondAttribute="trailing" id="8si-bb-rOM"/>
+                                                    <constraint firstAttribute="bottom" secondItem="rh0-5T-1lu" secondAttribute="bottom" id="KRa-ZA-igI"/>
+                                                    <constraint firstItem="Pvq-DW-iSf" firstAttribute="leading" secondItem="bPj-0S-4vY" secondAttribute="leading" constant="4" id="ST0-Cj-Uny"/>
+                                                    <constraint firstItem="rh0-5T-1lu" firstAttribute="top" secondItem="bPj-0S-4vY" secondAttribute="top" id="gWf-iQ-2dr"/>
+                                                    <constraint firstItem="Pvq-DW-iSf" firstAttribute="top" secondItem="bPj-0S-4vY" secondAttribute="top" constant="4" id="vt9-Y3-BWR"/>
+                                                    <constraint firstAttribute="bottom" secondItem="Pvq-DW-iSf" secondAttribute="bottom" constant="4" id="xTl-Zy-8bk"/>
+                                                </constraints>
+                                                <connections>
+                                                    <outlet property="cardView" destination="Pvq-DW-iSf" id="jmn-L4-dmM"/>
+                                                    <outlet property="connectionStatus" destination="oo3-F6-oES" id="XNO-fa-iVL"/>
+                                                    <outlet property="messageField" destination="uOF-bO-2FX" id="JyI-VB-I2a"/>
+                                                    <outlet property="shadowView" destination="rh0-5T-1lu" id="u11-bu-oLy"/>
+                                                    <outlet property="userNameLabel" destination="QG0-Yb-jMk" id="0SO-T8-0Wr"/>
+                                                </connections>
+                                            </collectionViewCell>
+                                        </cells>
+                                    </collectionView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="vI0-5p-okr" secondAttribute="trailing" constant="8" id="56T-tX-DxM"/>
+                                    <constraint firstItem="vI0-5p-okr" firstAttribute="leading" secondItem="7KK-9J-pzo" secondAttribute="leading" constant="8" id="BbO-6k-tSl"/>
+                                    <constraint firstAttribute="bottom" secondItem="vI0-5p-okr" secondAttribute="bottom" constant="8" id="iG6-1N-16X"/>
+                                    <constraint firstItem="vI0-5p-okr" firstAttribute="top" secondItem="7KK-9J-pzo" secondAttribute="top" constant="8" id="vsj-BA-6aV"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7KK-9J-pzo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="0hN-aS-hdb"/>
+                            <constraint firstAttribute="trailing" secondItem="7KK-9J-pzo" secondAttribute="trailing" id="1ys-9a-gfh"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="7KK-9J-pzo" secondAttribute="bottom" id="Dbb-1R-qTP"/>
+                            <constraint firstItem="7KK-9J-pzo" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="MiK-ZH-aMo"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="vI0-5p-okr" id="DHc-nM-OK3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
